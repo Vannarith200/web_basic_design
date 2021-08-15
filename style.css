@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Recursive&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #a29bfe;
+}
+.main-header{
+    height: 300px;
+    background-color: rgba(0, 0, 0, .4);
+    background-image: url('header.jpeg');
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+ul{
+    margin: 0;
+}
+.nav.main-nav{
+    height: 45px;
+    text-align: center;
+
+}
+.nav li{
+    display: inline;
+    padding-top: 0;
+    float: right;
+}
+.nav a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    display: inline-block;
+}
+.nav a:hover{
+    margin: 0;
+    background-color: rgba(0, 222, 255, .2);
+}
+.content-title{
+    font-family: 'Recursive', sans-serif;
+    color: #636e72;
+    text-align: justify;
+}
+.band-name{
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-size: 5rem;
+    font-family: 'Oleo Script',sans-serif;
+}
+.container-section{
+    margin: 1em;
+}
+.container{
+    max-width: 100%;
+}
+.about{
+    text-align: center;
+    margin: 15px auto;
+    font-size: 3rem;
+    font-family: 'Oleo Script', sans-serif;
+}
+.img-center{
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin: 10px 10px 10px 0;
+    border-radius: 50%;
+}
+.main-footer{
+    background-color: #636e72;
+    align-items: center;
+    display: flex;
+}
+.nav-footer{
+    display: flex;
+}
+.footer-wrapper{
+    align-items: center;
+    display: flex;
+}
+.img-footer{
+    border-radius: 50%;
+}
+.the-gen{
+    float: left;
+}
+.nav-footer{
+    float: right;
+}
+nav ul li{
+    display: inline;
+    padding: 0 .5em;
+}
+.main-footer ul{
+    text-align: end;
+    flex-grow: 1;
+    
+}
